@@ -1,9 +1,10 @@
 dir = $(pwd);
 mv .vimrc ~;
 cd ~;
+rm -rf .vim;
 mkdir .vim;
 cd .vim;
 mkdir colors;
-mv "${dir}/monokai" colors/;
+mv "${dir}/monokai.vim" colors/;
 cd "${dir}/..;
 rm -rf ($dir);
