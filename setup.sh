@@ -8,4 +8,4 @@ mkdir colors;
 cp "${dir}/monokai.vim" colors/;
 cd "${dir}/..";
 rm -rf $dir;
-cd ..;
+cd ~;
