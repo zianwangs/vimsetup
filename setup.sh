@@ -6,5 +6,5 @@ mkdir .vim;
 cd .vim;
 mkdir colors;
 cp "${dir}/monokai.vim" colors/;
-cd "${dir}/..;
+cd "${dir}/..";
 rm -rf ($dir);
